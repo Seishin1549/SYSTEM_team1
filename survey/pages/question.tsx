@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div>
-      <Link href = "/question">リンク</Link>
+      <Link href = "https://www.youtube.com">questionだよ</Link>
     </div>
   )
 }
