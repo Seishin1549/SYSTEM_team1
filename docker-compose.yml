@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+   nginx:
+     build: ./nginx
+     container_name: nginx
+     depends_on:
+       - server
+     ports:
+       - 80:80
+   server:
+     build: ./survey
+     container_name: survey
