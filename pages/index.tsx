@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { Base } from '../parts/Base/Base'
 import { Header } from '../parts/Header/Header'
 import styles from '../styles/Home.module.scss'
-
+// komennto
 const Home: NextPage = () => {
   return (
    <div>
