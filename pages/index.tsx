@@ -12,6 +12,7 @@ const Home: NextPage = () => {
   return (
    <div>
     <Base>
+    //aiueo
     これはCSBSS(Conduct Survey Based Separating System)のホームページです。<br/><br/>
     <Link href ="https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=XYP-cpVeEkWK4KezivJfyMzkoX2THZJEp8ZKC1VpiUhUNjhDRVExTE9WREc0MlJESEs2Ukg2NjcwRy4u" ><a><button className={styles.aaa}>アンケート実施</button></a></Link><br/><br/><br/>
     <button className={styles.aaa}onClick={bunkatu}>testグループ分割実施</button><br/><br/><br/>
