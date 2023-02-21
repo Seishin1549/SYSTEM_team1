@@ -9,14 +9,21 @@ const bunkatu=()=>{
   
 }
 const Home: NextPage = () => {
+  //英語と国語のボタンはあくまでこんな感じに増やせるということを説明するための見せかけです。リンクは既存の別のものを再利用しています。
   return (
    <div>
     <Base>
+    
     これはCSBSS(Conduct Survey Based Separating System)のホームページです。<br/><br/>
-    <Link href ="https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=XYP-cpVeEkWK4KezivJfyMzkoX2THZJEp8ZKC1VpiUhUNjhDRVExTE9WREc0MlJESEs2Ukg2NjcwRy4u" ><a><button className={styles.aaa}>アンケート実施</button></a></Link><br/><br/><br/>
-    <button className={styles.aaa}onClick={bunkatu}>グループ分割実施</button><br/><br/><br/>
-    <button className={styles.aaa}>・・・実施</button><br/><br/><br/>
-    <Link href ="https://www.youtube.com" ><a><button className={styles.aaa}>Youtube</button></a></Link><br/><br/><br/>
+    担当の教科を選択してください<br/><br/>
+    <Link href = "/japanese"><a><button className={styles.aaa}>国語</button></a></Link><br/><br/>
+    <br/>
+    <Link href = "/math"><a><button className={styles.aaa}>数学</button></a></Link><br/><br/>
+    <br/>
+    <Link href = "/system"><a><button className={styles.aaa}>システム設計</button></a></Link><br/><br/>
+    <br/>
+    <Link href = "/english"><a><button className={styles.aaa}>英語</button></a></Link><br/><br/>
+    <br/>
     </Base>
    </div>
   )
